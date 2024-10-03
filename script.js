@@ -2,7 +2,7 @@ function firstNonRepeatedChar(str) {
  const charferqcount = {};
 	for(let char of str){
 		if(charferqcount[char]){
-			charferqcount += 1;
+			charferqcount[char] += 1;
 		}else{
 			charferqcount[char] = 1;
 		}
@@ -16,5 +16,5 @@ function firstNonRepeatedChar(str) {
 	return null;
 	}
 
-const input = prompt("Enter a string");
-alert(firstNonRepeatedChar(input)); 
+// const input = prompt("Enter a string");
+// alert(firstNonRepeatedChar(input)); 
