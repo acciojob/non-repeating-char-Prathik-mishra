@@ -8,7 +8,7 @@ function firstNonRepeatedChar(str) {
 		}
 	}
 	for(let char of str){
-		if(charferqcount[char] === 1){
+		if(charferqcount[char] == 1){
 			return char;
 		}
 		
